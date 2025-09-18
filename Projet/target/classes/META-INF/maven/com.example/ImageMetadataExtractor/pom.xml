@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
+  <!-- Déclaration du modèle POM utilisé. La version 4.0.0 est la version la plus courante pour Maven -->
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- Identifiant unique du groupe de l'application ou de la bibliothèque, généralement utilisé pour organiser les projets -->
+  <groupId>com.example</groupId>
+
+  <!-- Identifiant unique du projet ou de l'artefact. Il représente le nom de l'application ou de la bibliothèque -->
+  <artifactId>ImageMetadataExtractor</artifactId>
+
+  <!-- La version du projet ou de l'artefact. 'SNAPSHOT' indique qu'il s'agit d'une version en développement -->
+  <version>0.0.1-SNAPSHOT</version>
+
+  <dependencies> <!-- Début de la section des dépendances, qui contient les bibliothèques nécessaires au projet -->
+
+    <!-- Dépendance pour la bibliothèque 'metadata-extractor', utilisée pour extraire des métadonnées d'images -->
+    <dependency>
+        <!-- Le groupe Maven qui maintient la bibliothèque -->
+        <groupId>com.drewnoakes</groupId>
+
+        <!-- Le nom spécifique de l'artefact, qui correspond à la bibliothèque -->
+        <artifactId>metadata-extractor</artifactId>
+
+        <!-- La version de la bibliothèque que le projet utilise -->
+        <version>2.16.0</version>
+    </dependency>
+
+    <!-- Dépendance pour la bibliothèque 'xmpcore' d'Adobe, permettant de lire et d'écrire des métadonnées XMP dans les fichiers -->
+    <dependency>
+        <!-- Le groupe Maven qui maintient la bibliothèque -->
+        <groupId>com.adobe.xmp</groupId>
+
+        <!-- Le nom spécifique de l'artefact de la bibliothèque -->
+        <artifactId>xmpcore</artifactId>
+
+        <!-- La version spécifique de la bibliothèque à utiliser -->
+        <version>6.1.11</version>
+    </dependency>
+    
+     <dependency>
+    <groupId>com.toedter</groupId>
+    <artifactId>jcalendar</artifactId>
+    <version>1.4</version>
+     </dependency>
+    
+    
+
+  </dependencies> <!-- Fin de la section des dépendances -->
+
+</project>
+

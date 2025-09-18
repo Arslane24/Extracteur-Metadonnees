@@ -1,0 +1,7 @@
+INDEX VERSION 1.134+C:\Users\arsla\OneDrive\Bureau\L2-I-equipe-projet-E-1_HAMLAT_REBUFIE\PROJET_JAVA\.metadata\.plugins\org.eclipse.jdt.core
+190995713.index
+2674025601.index
+2577133422.index
+1566370216.index
+1865797976.index
+1994520209.index
